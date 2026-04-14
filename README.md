@@ -12,6 +12,23 @@ claude plugin marketplace add qoris-ai/qoris-marketplace
 claude plugin install knox@qoris
 ```
 
+**Or add the marketplace manually** in `~/.claude/settings.json`:
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "qoris": {
+      "source": {
+        "source": "github",
+        "repo": "qoris-ai/qoris-marketplace"
+      }
+    }
+  }
+}
+```
+
+Then run `claude plugin install knox@qoris`.
+
 ## Available plugins
 
 | Plugin | Description |
