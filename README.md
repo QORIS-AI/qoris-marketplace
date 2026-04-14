@@ -12,8 +12,6 @@ claude plugin marketplace add qoris-ai/qoris-marketplace
 claude plugin install knox@qoris
 ```
 
-> **Auth note:** Both commands use your existing git credentials. If you have `gh auth login` configured they work as-is. If you hit a permissions error, set `GITHUB_TOKEN=<your-pat>` before running them.
-
 ## Available plugins
 
 | Plugin | Description |
