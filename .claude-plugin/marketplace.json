@@ -15,7 +15,7 @@
       },
       "version": "1.0.0",
       "keywords": ["security", "enforcement", "audit", "safety"],
-      "author": "Qoris <apps@qoris.ai>",
+      "author": { "name": "Qoris", "email": "apps@qoris.ai" },
       "homepage": "https://qoris.ai/knox"
     }
   ]
