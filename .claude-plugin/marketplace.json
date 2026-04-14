@@ -1,0 +1,22 @@
+{
+  "name": "qoris",
+  "owner": {
+    "name": "Qoris",
+    "email": "apps@qoris.ai"
+  },
+  "plugins": [
+    {
+      "name": "knox",
+      "description": "Security enforcement layer for Claude Code. Blocks dangerous commands, audits every tool call, detects prompt injection.",
+      "source": {
+        "source": "github",
+        "repo": "qoris-ai/knox-claude",
+        "ref": "v1.0.0"
+      },
+      "version": "1.0.0",
+      "keywords": ["security", "enforcement", "audit", "safety"],
+      "author": "Qoris <apps@qoris.ai>",
+      "homepage": "https://qoris.ai/knox"
+    }
+  ]
+}
