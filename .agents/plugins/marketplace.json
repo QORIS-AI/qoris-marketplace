@@ -1,0 +1,21 @@
+{
+  "name": "qoris",
+  "interface": {
+    "displayName": "Qoris"
+  },
+  "plugins": [
+    {
+      "name": "knox",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/qoris-ai/knox.git",
+        "ref": "v2.2.0"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
+    }
+  ]
+}
