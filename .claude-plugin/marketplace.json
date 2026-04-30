@@ -10,10 +10,10 @@
       "description": "Security enforcement layer for Claude Code. Blocks dangerous commands, audits every tool call, detects prompt injection.",
       "source": {
         "source": "github",
-        "repo": "qoris-ai/knox-claude",
-        "ref": "v1.1.5"
+        "repo": "qoris-ai/knox",
+        "ref": "v2.0.0"
       },
-      "version": "1.1.5",
+      "version": "2.0.0",
       "keywords": ["security", "enforcement", "audit", "safety"],
       "author": { "name": "Qoris", "email": "apps@qoris.ai" },
       "homepage": "https://qoris.ai/knox"
