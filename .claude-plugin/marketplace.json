@@ -11,9 +11,9 @@
       "source": {
         "source": "github",
         "repo": "qoris-ai/knox",
-        "ref": "v2.3.3"
+        "ref": "v2.3.4"
       },
-      "version": "2.3.3",
+      "version": "2.3.4",
       "keywords": ["security", "enforcement", "audit", "safety"],
       "author": { "name": "Qoris", "email": "apps@qoris.ai" },
       "homepage": "https://qoris.ai/knox"
